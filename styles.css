@@ -60,6 +60,8 @@ header {
     position: absolute;
 }
 
+/*Tea of the Month*/
+
 .tea-month {
     width: 1000px;
     margin: 60px auto;
@@ -82,4 +84,64 @@ header {
     padding: 10px;
 }
 
+/*Locations*/
+.downtown {
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    align-content: center;
+    opacity: 1.0;
+}
 
+.bayside {
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    align-content: center;
+    opacity: 1.0;
+}
+
+.oakdale {
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    align-content: center;
+    opacity: 1.0;
+}
+
+.locations-img img {
+    height:  500px;
+    width: 1200px;
+}
+
+.locations-img {
+
+}
+
+.container-locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.locations {
+    display: flex;
+
+    gap: 40px;
+
+}
+
+.container-locations h2 {
+
+}
+
+.contact {
+    min-height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}

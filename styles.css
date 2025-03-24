@@ -1,0 +1,38 @@
+/* styles.css */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img {
+      justify-content: left;
+}
+
+.header-links {
+    text-decoration: underline;
+    display: flex;
+    gap: 12px;
+}   
+
+

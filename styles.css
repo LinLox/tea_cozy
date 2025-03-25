@@ -35,12 +35,14 @@ header {
 
 .header-img {
       justify-content: left;
+      margin-left: 10px;
 }
 
 .header-links {
     text-decoration: underline;
     display: flex;
-    gap: 12px;
+    gap: 20px;
+    margin-right: 10px;
 }
 
 a {
